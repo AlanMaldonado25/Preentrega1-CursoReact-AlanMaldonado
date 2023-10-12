@@ -1,0 +1,27 @@
+
+.Navbar{
+    display: flex;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    left: 0;
+    width: 100%;
+    justify-content: space-between;
+    background-color: #a9a9a9;
+    -webkit-box-shadow: 0px 2px 5px 0px rgba(153,153,153,1);
+    -moz-box-shadow: 0px 2px 5px 0px rgba(153,153,153,1);
+    box-shadow: 0px 2px 5px 0px rgba(153,153,153,1);
+}
+.img-navbar{
+    height: 6rem;
+}
+.nav-link{
+    margin-right: 1rem;
+    text-transform: uppercase;
+    color: black;
+    text-decoration: none;
+}
+.nav-link:hover{
+    color: gray;
+    transition: .5s;
+}

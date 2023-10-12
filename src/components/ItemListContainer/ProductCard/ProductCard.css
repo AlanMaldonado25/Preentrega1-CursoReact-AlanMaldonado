@@ -1,0 +1,23 @@
+.card{
+    border-radius: 5px;
+    padding: .5rem;
+    border-radius: 10px;
+    background: #242424;
+    box-shadow:  9px 9px 18px #202020,
+                -9px -9px 18px #282828;
+}
+.imagen-card{
+    width: 15rem;
+    height: 15rem;
+    object-fit: cover;
+}
+.titulo-card{
+    font-weight: 400;
+    color:#d1d1d1;
+    margin: 0;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+}
+.btn-card:hover{
+    border: 1px solid gray;
+}

@@ -1,0 +1,22 @@
+.btn-carrito{
+    background-color: transparent;
+    position: relative;
+    border: none;
+}
+.btn-carrito:active{
+    border: none;
+}
+.carrito{
+    height: 1.5rem;
+}
+.contador-carrito{
+    background-color: red;
+    width: 1rem;
+    height: 1rem;
+    font-size: .8rem;
+    border-radius: 50%;
+    position: absolute;
+    align-content: center;
+    top: 0;
+    right: .6rem;
+}
