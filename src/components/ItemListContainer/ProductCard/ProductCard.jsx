@@ -3,7 +3,7 @@ import './ProductCard.css'
 const ProductCard = (props) => {
     return (
         <div className='card'>
-            <img src={props.imagen} alt="Remera" className='imagen-card'/>
+            <img src={props.imagen} alt={props.titulo} className='imagen-card'/>
             <h2 className='titulo-card'>{props.titulo}</h2>
             <p className='desc-card'>{props.description}</p>
             <p className='precio-card'>$ {props.precio}</p>
